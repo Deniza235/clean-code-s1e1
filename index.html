@@ -5,22 +5,20 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
-  <header class="aaa">
-    <img src="./eisenhower-matrix.jpg">
-    <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+<body class="body">
+  <header class="header">
+    <img src="./eisenhower-matrix.jpg" class="header__img">
+    <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
-  <main class="centered-main-page-element">
-    <section>
-      <p id="top-section-for-adding-element-to-list">
-        <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task"class="task" type="text">
-          <button>Add</button>
-        </div>
-      </p>
+  <main class="main">
+    <section class="add-item">
+      <label for="new-task" class="add-item__heading">Add Item</label>
+      <div class="add-item__wrapper">
+        <input id="new-task"class="add-item__input input" type="text">
+        <button class="add-item__btn btn">Add</button>
+      </div>
     </section>
-    <section>
+    <section class="to-do-list">
       <h3>Todo</h3>
       <ul id="incomplete-tasks">
         <li>
@@ -43,7 +41,7 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section class="completed-tasks">
       <h3>Completed</h3>
       <ul id="completed-tasks">
         <li>
